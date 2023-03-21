@@ -10,4 +10,5 @@ int main() {
     std::cout<<num_1;
     //Adding new line so we can clearly see the value of num_1
     std::cout<<std::endl;
+     return 0;
 }
