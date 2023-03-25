@@ -21,10 +21,12 @@ int main() {
         nums.push_back(i);
         cout << nums[i] << " \n";
     }
-    
+    cout << "int vector nums has " << nums.size() << " elements." << "\n";
+    /*
     for (auto item : nums) {
         cout << item << " ";
     }
+    */
     cout << "\n";
     
     vector<string> words;
