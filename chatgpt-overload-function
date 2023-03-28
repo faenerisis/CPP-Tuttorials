@@ -1,0 +1,20 @@
+#include <iostream>
+using std::cout;
+
+//Overloaded function for integer addition
+int add(int a, int b) {
+    return a + b;
+}
+
+//Overloaded function for floating-point addition
+double add(double a, double b) {
+    return a + b;
+}
+
+int main() {
+    int num1 = 5, num2 = 10;
+    double num3 = 5.5, num4 = 11.5;
+    
+    cout << "Sum of integers: " << add(num1, num2) << '\n';
+    cout << "Sum of floating-point numbers: " << add(num3, num4) << '\n';
+}
